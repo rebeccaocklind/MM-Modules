@@ -12,22 +12,22 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Vad fin du är idag :)"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"God morgon!",
+				"Ha en bra dag!",
+				"Vad snygg du är!"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Hoppas du haft en bra dag!",
+				"Snygg tröja!",
+				"Vad fin du är i håret!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Hoppas du haft en bra dag!",
+				"Snygg tröja!",
+				"Vad fin du är idag!"
 			]
 		},
 		updateInterval: 30000,
@@ -36,7 +36,8 @@ Module.register("compliments", {
 		morningStartTime: 3,
 		morningEndTime: 12,
 		afternoonStartTime: 12,
-		afternoonEndTime: 17
+		afternoonEndTime: 17,
+		classes: "thin xlarge bright pre-line blue"
 	},
 
 	// Set currentweather from module
