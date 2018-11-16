@@ -37,7 +37,7 @@ Module.register("compliments", {
 		morningEndTime: 12,
 		afternoonStartTime: 12,
 		afternoonEndTime: 17,
-		classes: "thin xlarge bright pre-line blue"
+		classes: "regular xlarge bright pre-line blue"
 	},
 
 	// Set currentweather from module
