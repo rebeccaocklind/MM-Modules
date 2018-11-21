@@ -208,6 +208,10 @@ sup {
   bottom: 100%;
 }
 
+.region.bottom.right {
+  left: 45%;
+}
+
 .region.bar {
   width: 100%;
   text-align: center;

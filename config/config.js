@@ -18,15 +18,15 @@ var config = {
 	modules: [
 		{
 			module: "messages",
-			position: "center_top"
+			position: "bottom_right"
 		},		
 		{
 			module: "clock",
-			position: "top_left"
+			position: "bottom_left"
 		},
 		{
 			module: "compliments",
-			position: "bottom_left"
+			position: "top_center"
 		}
 	]
 
